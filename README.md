@@ -32,7 +32,7 @@ The Hogwarts Archive System is a command-line application for managing spellbook
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/hogwarts-archive.git
+git clone https://github.com/r1ckyIn/hogwarts-archive.git
 cd hogwarts-archive
 
 # Compile
@@ -106,7 +106,7 @@ For detailed design decisions, see [DESIGN_REPORT.md](DESIGN_REPORT.md).
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/hogwarts-archive.git
+git clone https://github.com/r1ckyIn/hogwarts-archive.git
 cd hogwarts-archive
 
 # 编译
