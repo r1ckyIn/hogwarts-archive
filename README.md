@@ -1,10 +1,11 @@
-# 🧙‍♂️ Hogwarts Archive System
+# Hogwarts Archive System
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=openjdk)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Course](https://img.shields.io/badge/Course-INFO1113-purple?style=flat-square)
+[![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org)
+[![USYD](https://img.shields.io/badge/USYD-CS-00205B?style=flat-square)](https://www.sydney.edu.au/)
+[![Course](https://img.shields.io/badge/Course-INFO1113-purple?style=flat-square)](https://www.sydney.edu.au/units/INFO1113)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
 **A magical spellbook management system for the Hogwarts library**
 
@@ -16,11 +17,11 @@
 
 ## English
 
-### 📖 Overview
+### Overview
 
 The Hogwarts Archive System is a command-line application for managing spellbooks and student rentals at Hogwarts School of Witchcraft and Wizardry. This project demonstrates object-oriented programming principles including encapsulation, inheritance, and the use of design patterns.
 
-### ✨ Features
+### Features
 
 - **Spellbook Management**: Add, list, and search spellbooks by type, inventor, or serial number
 - **Student Accounts**: Create student accounts and track rental activities
@@ -28,7 +29,7 @@ The Hogwarts Archive System is a command-line application for managing spellbook
 - **CSV Import/Export**: Load spellbook collections from CSV files and save system state
 - **Search & Filter**: Find spellbooks by type, inventor, or availability status
 
-### 🚀 Quick Start
+### Quick Start
 
 ```bash
 # Clone the repository
@@ -42,7 +43,7 @@ javac src/*.java -d out
 java -cp out HogwartsArchive
 ```
 
-### 💻 Commands
+### Commands
 
 | Command | Description |
 |---------|-------------|
@@ -61,7 +62,7 @@ java -cp out HogwartsArchive
 | `RELINQUISH <student> <serial>` | Return a spellbook |
 | `COMMON <student1> <student2> ...` | Find common rental history |
 
-### 📁 Project Structure
+### Project Structure
 
 ```
 hogwarts-archive/
@@ -76,7 +77,7 @@ hogwarts-archive/
 └── README.md
 ```
 
-### 🏗️ Architecture
+### Architecture
 
 The system follows a clean three-tier architecture:
 
@@ -90,11 +91,11 @@ For detailed design decisions, see [DESIGN_REPORT.md](DESIGN_REPORT.md).
 
 ## 中文
 
-### 📖 项目概述
+### 项目概述
 
 霍格沃茨档案管理系统是一个命令行应用程序，用于管理霍格沃茨魔法学校的咒语书和学生借阅记录。本项目展示了面向对象编程原则，包括封装、继承和设计模式的使用。
 
-### ✨ 功能特性
+### 功能特性
 
 - **咒语书管理**：添加、列出和搜索咒语书（按类型、发明者或序列号）
 - **学生账户**：创建学生账户并跟踪借阅活动
@@ -102,7 +103,7 @@ For detailed design decisions, see [DESIGN_REPORT.md](DESIGN_REPORT.md).
 - **CSV导入/导出**：从CSV文件加载咒语书集合并保存系统状态
 - **搜索与筛选**：按类型、发明者或可用状态查找咒语书
 
-### 🚀 快速开始
+### 快速开始
 
 ```bash
 # 克隆仓库
@@ -116,7 +117,7 @@ javac src/*.java -d out
 java -cp out HogwartsArchive
 ```
 
-### 💻 命令列表
+### 命令列表
 
 | 命令 | 描述 |
 |------|------|
@@ -135,7 +136,7 @@ java -cp out HogwartsArchive
 | `RELINQUISH <学生号> <序列号>` | 归还咒语书 |
 | `COMMON <学生1> <学生2> ...` | 查找共同借阅历史 |
 
-### 🏗️ 系统架构
+### 系统架构
 
 系统采用清晰的三层架构：
 
@@ -147,14 +148,16 @@ java -cp out HogwartsArchive
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Author
 
-## 📬 Contact
+**Ricky** - CS Student @ University of Sydney
 
-If you have any questions or suggestions, please open an issue.
+[![GitHub](https://img.shields.io/badge/GitHub-r1ckyIn-181717?style=flat-square&logo=github)](https://github.com/r1ckyIn)
+
+Interested in Cloud Engineering & DevOps
